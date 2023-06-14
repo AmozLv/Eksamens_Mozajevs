@@ -45,7 +45,7 @@ public class tests {
         //Jautājumu atbilžu masīvi
         String[] jautajuma1Atbildes = {"a) length()", "b) size()", "c) count()", "d) sizeOf()"};
         String[] jautajuma2Atbildes = {"a) merge()", "b) concat()","c) append()", "d) combine()"};
-        String[] jautajuma3Atbildes = {"a) getPosition()", "b) find()","c) indexOf()", "d) search()"};
+        String[] jautajuma3Atbildes = {"a) getPosition()", "b) find()","c) charAt()", "d) search()"};
         String[] jautajuma4Atbildes = {"a) convertToLowerCase()","b) toLowerCase()", "c) convertToUpper()","d) toUpperCase()"};
         String[] jautajuma5Atbildes = {"a) equals()", "b) equalsIgnoreCase()", "c) compare()", "d) compareIgnoreCase()"};
         String[] jautajuma6Atbildes = {"a) reverse()", "b) invert()", "c) flip()", "d) backward()"};
@@ -55,7 +55,7 @@ public class tests {
         String[] jautajuma10Atbildes = { "a) subsequence()","b) substring()", "c) subset()", "d) extract()"};
         
         //Masīvs, kas uzglabā pareizo atbildi katram jautājumam
-        char[] pareizsVariants = {'a', 'c', 'b', 'd', 'b', 'a', 'c', 'd', 'c', 'b'};
+        char[] pareizsVariants = {'a', 'b', 'c', 'd', 'b', 'a', 'c', 'd', 'c', 'b'};
         
         //Jautājumu atbildes masīva dafinēšana, uzglabā katra jautājuma atbildes masīvu
         ArrayList<String[]> jautAtb = new ArrayList<String[]>();
